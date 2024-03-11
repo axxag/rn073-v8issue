@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "react": "18.2.0",
-    "react-native": "0.73.5",
+    "react-native": "0.73.6",
     "react-native-v8": "2.3.0",
     "v8-android-jit-nointl": "11.1000.4"
   },
