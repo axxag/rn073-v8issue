@@ -34,9 +34,9 @@ class MainApplication : Application(), ReactApplication {
         override fun getJavaScriptExecutorFactory(): JavaScriptExecutorFactory =
             V8ExecutorFactory(
                 applicationContext,
-                "packageName",
+                packageName,
                 AndroidInfoHelpers.getFriendlyDeviceName(),
-                BuildConfig.DEBUG
+                useDeveloperSupport
             )
       }
 
